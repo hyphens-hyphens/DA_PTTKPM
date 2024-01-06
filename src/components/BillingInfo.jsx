@@ -105,12 +105,12 @@ function BillingInfo(props) {
             status: true
           },
           {
-            flightId: selectedReturnFlight._id, 
+            flightId: selectedReturnFlight?._id, 
             passenger: passenger.firstName + ' ' + passenger.lastName,
             passengerId: passenger.passengerId,
             phoneNumber: passenger.phone,
-            type: selectedReturnFlight.type,
-            price: selectedReturnFlight.totalPrice,
+            type: selectedReturnFlight?.type,
+            price: selectedReturnFlight?.totalPrice,
             seat: props.selectedReturnSeat[0] ? props.selectedReturnSeat[0].id : '',
             status: true
           }

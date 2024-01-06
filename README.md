@@ -8,3 +8,21 @@
  <p>* 22424016 – Hoàng Ngọc Thiện</p>
  <p>* 22424026 – Nguyễn Võ Nguyên Phát</p>
  <p>* 22424028 – Trần Nguyên Thảo</p>
+
+ <p>
+ 	1. Install mongodb
+ </p>
+
+ <p>
+ 	2. Sửa config mongodb trong main.config.js mongoUrl: 'mongodb://localhost:27017',
+ </p>
+
+ <p>
+	3. npm install tại các thư mục sau:
+ 	<br>
+ 		+ Thư mục gốc
+ 	<br>
+ 		+ /adminApp
+ 	<br>
+ 		+ /server
+ </p>
