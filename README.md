@@ -26,3 +26,13 @@
  	<br>
  		+ /server
  </p>
+
+<p>
+	Các chạy src: 'npm start' tại các thư mục sau theo thứ tự:
+ 	<br>
+ 		+ /server
+ 	<br>
+ 		+ /adminApp
+    <br>
+ 		+ Thư mục gốc    
+ </p>
